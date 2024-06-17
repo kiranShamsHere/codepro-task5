@@ -51,14 +51,14 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* width: 100%; */
+    width: 100%;
     flex-direction: row;
 }
 
 .container .box .one,
 .container .box .two,
 .container .box .three {
-    width: 400px;
+/*     width: 400px; */
     /* height: 300px; */
     border-radius: 10px;
     margin: 20px;
