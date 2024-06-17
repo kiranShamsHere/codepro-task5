@@ -51,8 +51,9 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-/*     width: 100%; */
+    width: 100%;
     flex-direction: row;
+    margin: auto;
 }
 
 .container .box .one,
