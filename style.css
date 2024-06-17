@@ -53,7 +53,6 @@ body {
     align-items: center;
 /*     width: 100%; */
     flex-direction: row;
-    margin: auto 20px;
 }
 
 .container .box .one,
