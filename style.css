@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+    color: #000;
+}
+
+/* 
+.container .boxx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+} */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container .bxx {
+    text-align: center;
+    margin: auto;
+}
+
+.container .bxx h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.container .bxx p {
+    font-size: 18px;
+    color: rgba(15, 15, 46, 0.89);
+    text-align: center;
+    margin: 5px;
+}
+
+.container .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100%; */
+    flex-direction: row;
+}
+
+.container .box .one,
+.container .box .two,
+.container .box .three {
+    width: 400px;
+    /* height: 300px; */
+    border-radius: 10px;
+    margin: 40px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 20px;
+    transition: .1s ease-in-out;
+}
+
+.container .box .one:hover,
+.container .box .two:hover,
+.container .box .three:hover {
+    transform: translateY(-10px);
+    transition: .2s ease-in-out;
+}
+
+.on {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.on i {
+    font-size: 30px;
+    color: #000;
+}
+
+.on h5 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.on h5:hover {
+    background-color: rgba(15, 15, 46, 0.89);
+    color: white;
+}
+
+.head {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.head h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.head p {
+    font-size: 15px;
+    color: rgba(15, 15, 46, 0.89);
+    margin: 5px;
+    text-align: center;
+}
+
+.to {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.to .div {
+    margin: 10px 20px;
+}
+
+.to .div h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.to .div h6 {
+    font-size: 15px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.to .div h6 span {
+    color: #161616;
+    font-weight: 700;
+}
+
+.to div img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+@media (max-width: 700px) {
+
+    .container .box .one,
+    .container .box .two,
+    .container .box .three {
+        width: 90vmin;
+        margin: 30px auto;
+    }
+
+    .container .bxx {
+        margin: 50px auto;
+    }
+
+    .container .box {
+        flex-direction: column;
+    }
+
+    .container .bxx h2 {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .container .box .one,
+    .container .box .two,
+    .container .box .three {
+        width: 80vmin;
+        margin: 30px auto;
+    }
+
+    .container .bxx {
+        margin: 50px auto;
+    }
+
+    .container .box {
+        flex-direction: column;
+    }
+
+    .container .bxx h2 {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+}
